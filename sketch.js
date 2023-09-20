@@ -41,10 +41,15 @@ function mouseClicked(){
     }
   }
   function keyPressed(){
-    if (key == 'j'){
-    console.log("you pressed a key!");
+    if (key == 'j' || key == 'J'){
+      if (speed < 0){
+        console.log("left");
+      }else{
+        console.log("right");
+      }
+      }
   }
-}
+
  
 
 
