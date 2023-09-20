@@ -36,6 +36,13 @@ function mouseClicked(){
     moving = true;
   }
   }
+  function keyPressed(){
+    if(key == 'k'|| key == 'K'){
+    }
+  }
+  function keyPressed(){
+    console.log("you pressed a key!");
+  }
  
 
 
